@@ -1,5 +1,5 @@
-"""Room server — HTTP room management API.
+"""Room server — HTTP room management API with routing and middleware.
 Part of the PLATO framework."""
-from .core import Room_server
+from .server import RoomServer, Route, Request, Response
 __version__ = "0.1.0"
-__all__ = ["Room_server"]
+__all__ = ["RoomServer", "Route", "Request", "Response"]
